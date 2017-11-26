@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8451161E1FCAF081002D9A25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8451161D1FCAF081002D9A25 /* AppDelegate.swift */; };
-		845116201FCAF081002D9A25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8451161F1FCAF081002D9A25 /* ViewController.swift */; };
 		845116231FCAF081002D9A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845116211FCAF081002D9A25 /* Main.storyboard */; };
 		845116251FCAF081002D9A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845116241FCAF081002D9A25 /* Assets.xcassets */; };
 		845116281FCAF081002D9A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845116261FCAF081002D9A25 /* LaunchScreen.storyboard */; };
+		845116321FCAFEF7002D9A25 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845116311FCAFEF7002D9A25 /* TableViewController.swift */; };
+		845116361FCB4827002D9A25 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845116351FCB4827002D9A25 /* Item.swift */; };
+		845116381FCB650F002D9A25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845116371FCB650F002D9A25 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8451161A1FCAF081002D9A25 /* RssViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RssViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8451161D1FCAF081002D9A25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8451161F1FCAF081002D9A25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		845116221FCAF081002D9A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845116241FCAF081002D9A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845116271FCAF081002D9A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845116291FCAF081002D9A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845116311FCAFEF7002D9A25 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		845116351FCB4827002D9A25 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		845116371FCB650F002D9A25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				8451161D1FCAF081002D9A25 /* AppDelegate.swift */,
-				8451161F1FCAF081002D9A25 /* ViewController.swift */,
 				845116211FCAF081002D9A25 /* Main.storyboard */,
 				845116241FCAF081002D9A25 /* Assets.xcassets */,
 				845116261FCAF081002D9A25 /* LaunchScreen.storyboard */,
 				845116291FCAF081002D9A25 /* Info.plist */,
+				845116311FCAFEF7002D9A25 /* TableViewController.swift */,
+				845116351FCB4827002D9A25 /* Item.swift */,
+				845116371FCB650F002D9A25 /* ViewController.swift */,
 			);
 			path = RssViewer;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845116201FCAF081002D9A25 /* ViewController.swift in Sources */,
 				8451161E1FCAF081002D9A25 /* AppDelegate.swift in Sources */,
+				845116361FCB4827002D9A25 /* Item.swift in Sources */,
+				845116381FCB650F002D9A25 /* ViewController.swift in Sources */,
+				845116321FCAFEF7002D9A25 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
